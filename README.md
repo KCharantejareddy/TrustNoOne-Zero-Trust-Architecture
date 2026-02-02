@@ -1,20 +1,21 @@
-# TrustNoOne: Zero Trust Architecture Mini Project
+# TrustNoOne – Zero Trust Architecture Mini Project
 
-This project demonstrates the implementation of Zero Trust security principles.
-No user or device is trusted by default.
+This mini project demonstrates Zero Trust security principles where
+no user or device is trusted by default.
 
-## Key Concepts Used
-- Identity verification
-- Device validation
-- Role-based access control
-- Continuous authentication
+## Features
+- User authentication using hashed passwords (SHA-256)
+- Device validation per user
+- Role-based access control (Admin, Developer, Intern)
+- Access logging for auditing
 
 ## Access Flow
-1. User logs in with credentials
-2. Device ID is verified
-3. Requested action is checked against RBAC policies
-4. Access is allowed or denied
+1. User enters credentials
+2. Device ID is validated
+3. Action is checked against role policies
+4. Access is granted or denied and logged
 
-## Technologies
+## Technologies Used
 - Python
-- Security principles (Zero Trust)
+- Hashlib (SHA-256)
+- Zero Trust Architecture concepts
