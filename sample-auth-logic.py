@@ -66,3 +66,4 @@ if __name__ == "__main__":
     else:
         print("Authentication failed.")
         log_access("UNKNOWN", "UNKNOWN", "N/A", "DENIED - AUTH")
+
